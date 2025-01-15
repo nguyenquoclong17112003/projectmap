@@ -1,0 +1,29 @@
+.wrapper {
+  width: 270px;
+  height: 26px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.filter_name {
+  margin-left: 15px;
+  font-size: 1.6rem;
+  color: #898aa9;
+}
+
+.icon {
+  color: #00b7ff;
+  font-size: 1.9rem;
+}
+
+.icon_last {
+  margin-left: auto;
+}
+
+.filter_name.bold {
+  font-weight: bold;
+  color: #000;
+}

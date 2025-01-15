@@ -1,0 +1,37 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 18px;
+  margin-bottom: 4px;
+}
+
+.info input[type="radio"] {
+  display: none;
+}
+
+.custom-radio {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-radio.checked {
+  border-color: #c4dcff;
+  background: #0045a8;
+}
+
+.spacer {
+  color: #2e2e2e;
+  font-size: 1.5rem;
+}
+
+.seperate {
+  border-bottom: 1.75px solid #ececec;
+}

@@ -1,0 +1,35 @@
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  background-color: #0045a8;
+  margin-top: 80px;
+}
+
+.inner {
+  width: 1300px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.filter__item {
+  display: flex;
+  align-items: center;
+}
+
+.search-result {
+  width: 270px;
+}
+.search-title {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.btn-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

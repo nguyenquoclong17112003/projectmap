@@ -1,0 +1,18 @@
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  background-color: #0045a8;
+  margin-top: 80px;
+}
+
+.inner {
+  width: 1150px;
+  display: flex;
+}
+
+.filter__item {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=Filter.module.css.map */
